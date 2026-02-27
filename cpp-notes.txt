@@ -1,0 +1,15 @@
+** pointers vs references **
+
+Pointer: A pointer holds the address to a variable. A pointer needs
+	to be dereferenced with the * operator to access the variable.
+
+References: Essentially a pointer under the hood. Has automatic 
+	indirection, i.e., the compiler will apply the * operator
+	for you. Kinda like another name for the variable, i think??
+
+
+Differences:-
+
+	- Pointers can be reassigned, but not references.
+	- Pointers can be initialized in multiple lines, but not
+	references.
